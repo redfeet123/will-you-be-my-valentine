@@ -61,7 +61,7 @@ document.querySelector('.yes-btn').addEventListener('click', function() {
     });
 
     finalQuestion.innerHTML = 
-        "<h2>🎉 I know you're my janu baby 💝</h2>" +
+        "<h2>🎉 I know you're my love 💝</h2>" +
         "<p>You've made my heart explode with joy!</p>" +
         "<div style='margin-top: 2rem; font-size: 3rem'>💞🌟</div>";
 });
@@ -78,4 +78,5 @@ document.querySelector('.no-btn').addEventListener('mouseover', function() {
 
 // Initialize
 createParticles();
+
 setTimeout(showNextMessage, 1000);
